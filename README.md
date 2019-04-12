@@ -1,4 +1,4 @@
-# this is a simple to do list application that uses an api to pull in task to populate the to do list
+# this is a simple to do list application that uses the JSONplaceholder api to pull in tasks to populate the to do list
 
 It is made using react in the node.js environment
 
