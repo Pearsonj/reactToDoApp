@@ -4,6 +4,8 @@ import PropTypes from 'prop-types';
 export class TodoItem extends Component {
     getStyle = () => {
         return{
+           fontFamily: 'Cinzel',
+           fontWeight: '600',
            background: '#f4f4f4',
            padding: '10px',
            borderBottom: '1px #ccc dotted',
@@ -33,6 +35,8 @@ TodoItem.propTypes = {
 }
 
 const btnStyle = {
+    fontFamily: 'Cinzel',
+    fontWeight: '600',
     background: 'red',
     color: 'white',
     border: 'none',

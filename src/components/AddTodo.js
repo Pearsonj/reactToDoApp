@@ -15,11 +15,11 @@ export class AddTodo extends Component {
 
   render() {
     return (
-      <form onSubmit={this.onSubmit} style={{ display:'flex'}}>
+      <form onSubmit={this.onSubmit} style={{ display:'flex', fontFamily: 'Cinzel',}}>
         <input 
             type='text' 
             name='title' 
-            style={{flex: '10', padding: '5px'}}
+            style={{flex: '10', padding: '5px', fontFamily: 'Cinzel', fontWeight: '600'}}
             placeholder='What Do You Need To Do?'
             value={this.state.title}
             onChange={this.onChange}
@@ -28,7 +28,7 @@ export class AddTodo extends Component {
             type="submit"
             value="submit"
             className="btn"
-            syle={{flex: '1'}}
+            style={{flex: '1', fontFamily: 'Cinzel', fontWeight: '600'}}
         />
       </form>
     )
